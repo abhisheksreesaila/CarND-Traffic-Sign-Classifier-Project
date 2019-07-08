@@ -57,4 +57,4 @@ A well-known architecture was chosen:
 - **Image 5:** This looks unique from other symbols model should classify the image correctly.
 - ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image5.jpg)
 ## Misclassification Analysis
-- ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/misclassifications.PNG)
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/misclassifications.PNG)
