@@ -48,11 +48,11 @@ A well-known architecture was chosen:
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image1.jpg)
 - **Image 2:** It is also distinct than others symbols. Should be easily to classify for the model.  
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image2.png)
-- **Image 3:** This has some text in the middle, it has some noise and the model is not trained on such images. Expected mis-classification
-- ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image3.jpg)
-- **Image 4:** This is big blue background + the sign is of blue color hence it might confuse the model. Chances are 60/40 in favor of misclassification
-- ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image4.jpg)
-- **Image 5:** This looks unique from other symbols model should classify the image correctly.
-- ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image5.jpg)
+- **Image 3:** This has some text in the middle, it has some noise and the model is not trained on such images. Expected mis-classification.  
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image3.jpg)
+- **Image 4:** This is big blue background + the sign is of blue color hence it might confuse the model. Chances are 60/40 in favor of misclassification.  
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image4.jpg)
+- **Image 5:** This looks unique from other symbols model should classify the image correctly.  
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image5.jpg)
 ## Misclassification Analysis
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/misclassifications.PNG)
