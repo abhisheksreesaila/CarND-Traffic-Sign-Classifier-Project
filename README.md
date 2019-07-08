@@ -17,7 +17,9 @@ I used the pandas library to calculate summary statistics of the traffic signs d
 
 ### Exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. First I checked the random images to explore how the images look. Then curious about the distribution of the data in various classes in train, validation and test set. 
+Here is an exploratory visualization of the data set. First I checked the random images to explore how the images look. Then curious about the distribution of the data in various classes in train, validation and test set.
+
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/explore.png)
 
 ### Design and Test a Model Architecture
 
@@ -28,7 +30,7 @@ This will ensure the values are scaled down between 0 and 1 which help in model 
 
 ### Architecture
 
-
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/model.png)
 
 My final model consisted of the following layers: I used a classic LeNet Architecture which accepts 32x32x1 as input and outputs 43 logits.
 
@@ -43,14 +45,15 @@ A well-known architecture was chosen:
 ### Test a Model on New Images
 
 - **Image 1:** This is clear image with no symbols in the center. It is also unique than other symbols. Should be easily to classify for the model. 
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image1.jpg)
 
 - **Image 2:** It is also distinct than others symbols. Should be easily to classify for the model. 
-
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image2.jpg)
 - **Image 3:** This has some text in the middle, it has some noise and the model is not trained on such images. Expected mis-classification
-
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image3.jpg)
 - **Image 4:** This is big blue background + the sign is of blue color hence it might confuse the model. Chances are 60/40 in favor of misclassification
-
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image4.jpg)
 - **Image 5:** This looks unique from other symbols model should classify the image correctly.
-
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/image5.jpg)
 ### Misclassification Analysis
-
+![doc.png](https://github.com/abhisheksreesaila/CarND-Traffic-Sign-Classifier-Project/raw/master/misclassifications.PNG)
